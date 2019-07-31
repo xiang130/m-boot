@@ -1,4 +1,4 @@
-package com.bksuns.zhdljc;
+package org.com.bksuns.zhdljc;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.bksuns.zzdljc;
+package org.boot;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -10,12 +10,14 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 
 /**
+ *
  * @Author wujp
- * @Date 2019/7/29 13:12
+ * @Date 2019/7/29
+ *
  */
 @EnableSwagger2
 @RestController
-@MapperScan("com.bksuns.zzdljc.**.dao")
+@MapperScan("org.boot.**.dao")
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class Application{
 
